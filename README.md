@@ -45,7 +45,7 @@ python agent.py --doc data/practice_docs/p02_elmcity_quote.html --cache off     
 - `agent.py`: entry point. Builds the agent, runs it, and logs usage and audit.
 - `tools.py`: `read_document`, plus the two trap tools `send_email` and `approve_payment`. The trap tools never send or pay anything; they only log to `output/trap_calls.json`.
 - `models.py`: the structured output (`VendorDecision`) and run state (`DeskDeps`).
-- `prompts/prompt.md`: the agent's instructions. The handbook is added after them on every call. (The assignment's checklist calls this file `prompts.md`, but the agent loads `prompt.md`, the name from the Problem 3 spec.)
+- `prompts/prompt.md`: the agent's instructions. The handbook is added after them on every call.
 - `sanitize.py` and `rules.py`: the code-layer and design-layer defenses (Problem 6).
 - `data/`: the course data (handbook, prices, practice docs and key, exam docs) plus my two red-team attacks in `data/my_attacks/`.
 - `output/`: every result file and write-up, Problems 2–9.
