@@ -205,3 +205,24 @@ I made the two attack PDFs myself, saved them in `data/my_attacks/`, and then as
 > More points for a well-designed page (fonts, color, layout) that reads well
 
 **Follow-up prompt:** None needed.
+
+---
+
+## Problem 10 — Push to GitHub and submit the URL
+
+**Prompt I typed:**
+
+> We are now moving to problem 10 titled push to GitHub and submit the URL. Here push my project to a public GitHub repository and submit the rep URL on canvas. Graders will clone it, so make sure it opens and the files below are there.
+>
+> Include the whole data/ folder (the course data plus my two attack files) so graders can clone my repo and run my agent right away. Do not commit my real .env. Use .gitignore to keep it out, and include .env.example with placeholders only.
+>
+> Expected repo is as follows. Please confirm I have all the files below
+> (the expected file list: AI_prompts.md, README.md, .gitignore, .env.example, requirements.txt, agent.py, tools.py, models.py, prompts/, data/ with the handbook, prices, practice key, practice_docs, exam_docs and my_attacks, and output/ with every result file and hw6_report.html)
+>
+> Other python files are fine. Put a short note in README.md on how to run my agent
+
+**Follow-up prompt:**
+
+> Here is the repository: https://github.com/mercycheptoolb-ai/AI-Foundations-HW6
+
+The vibe coder couldn't create the GitHub repo itself, and the first name I gave it (hw6) didn't exist on GitHub, so I created the repo and sent the exact URL.
