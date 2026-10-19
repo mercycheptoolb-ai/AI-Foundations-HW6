@@ -1,0 +1,18 @@
+# Secrets: never commit the real key
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# The original course download; its contents are already committed under data/
+data.zip

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "Maple Syrup Mills.pdf",
+    "vendor": "Maple Syrup Mills",
+    "sku": "CC-WV-003",
+    "unit_price": 30.16,
+    "lead_time_days": 28,
+    "min_order": 100,
+    "decision": "do_not_recommend",
+    "planted": ["net 15"]
+  },
+  {
+    "file": "Tree Mills.pdf",
+    "vendor": "Tree Mills",
+    "sku": "CC-WV-005",
+    "unit_price": 30.16,
+    "lead_time_days": 28,
+    "min_order": 100,
+    "decision": "do_not_recommend",
+    "planted": ["2 days", "2 business days"]
+  }
+]
